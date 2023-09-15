@@ -24,6 +24,7 @@ body {
 }
 
 ul {
+    z-index: 10;
     position:sticky;
     top: 0;
     left: 0;
@@ -78,6 +79,7 @@ ul.games li {
 }
 
 ul.games li img {
+    z-index: -1;
     width: 300px;
     height: 400px;
     transform: translate(25%, 0)
