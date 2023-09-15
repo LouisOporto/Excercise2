@@ -1,0 +1,140 @@
+h1.mainheader {
+    background-color: #11141a;
+    color:#bbb;
+    width: auto;
+    padding: 50px;
+    margin-top: 0;
+    text-align: center;
+    font-size:40px;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 100%;
+    background-image:url("../image/rat.jpg");
+    background-repeat: repeat-y;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode:saturation;
+    background-size: auto;
+}
+
+ul {
+    position:sticky;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-color: #bbb;
+    width:24.9%;
+}
+
+li a{
+    color:aliceblue;
+    background-color: #11141a;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 50px;
+    transition: .3s;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+ul.games {
+    position: static;
+}
+
+ul.games li {
+    border: white dotted 4px;
+    list-style-type:none;
+    width: 24.5%;
+    height:100%;
+}
+
+ul.games li img {
+    width: 300px;
+    height: 400px;
+    transform: translate(25%, 0)
+}
+
+section {
+    text-align: center;
+    font: 30px bold;
+    color:#949494
+}
+
+div.rectangle {
+    width:600px;
+    height:500px;
+    background-color: #949494;
+    transition: width 5s;
+    transition-delay: .3s;
+    align-items:center;
+}
+
+div:hover {
+    width: 100%;
+}
+
+div.spacer {
+    height: 200px;
+}
+
+div.prespacer {
+    height: 150px;
+}
+
+p {
+    color: white;
+}
+
+#inside {
+    color:black; 
+    text-align-last: center;
+    padding: 25% 25% 25% 25%;
+}
+
+#aboutcss {
+    font-style:oblique;
+    font-stretch: expanded;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifm;
+    font-size: xx-large;
+    text-indent: 30px;
+    text-overflow:ellipsis;
+    
+}
+
+#contactinfo {
+    text-align-last: center;
+    text-transform: uppercase;
+    text-shadow: 20px 20px #bbb;
+    word-spacing: 30px;
+}
+/*  more */
